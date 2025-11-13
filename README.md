@@ -1,10 +1,20 @@
 # Análise de Classificação e Estabilidade de Modelo com Dataset Pima Diabetes
 
-Este repositório contém uma análise aprofundada do dataset "Pima Indians Diabetes". O notebook é uma versão de estudo atualizada e mais detalhada de um projeto de pesquisa apresentado no congresso **UMC Summit**.
+Este repositório contém uma análise aprofundada do dataset "Pima Indians Diabetes". O notebook foca não apenas na classificação, mas na investigação da **estabilidade e confiabilidade** das métricas de avaliação do modelo.
 
-O objetivo principal deste notebook não é apenas criar um modelo de classificação para prever diabetes, mas investigar a **estabilidade e confiabilidade** das métricas de avaliação do modelo, comparando diferentes estratégias de validação cruzada.
+Esta é uma versão de estudo mais detalhada de um projeto de pesquisa apresentado no congresso **UMC Summit**.
 
-## 🚀 Objetivos Principais
+## 🏅 Versão do Congresso (UMC Summit)
+
+A versão original deste projeto, que foi formatada e apresentada no congresso (e está vinculada ao QR code da apresentação), está disponível em seu próprio repositório.
+
+➡️ **Repositório do Congresso: [https://github.com/ArthurS357/Collab](https://github.com/ArthurS357/Collab)**
+
+---
+
+## 🚀 Objetivos do Estudo Atual
+
+O notebook *deste* repositório (`Pima_Indians_Diabetes.ipynb`) foca em:
 
 1.  **Limpeza e Preparação:** Realizar um pré-processamento robusto dos dados, tratando valores ausentes (representados por '0') e outliers (usando IQR).
 2.  **Modelagem SVM:** Treinar e otimizar um modelo de Support Vector Machine (SVM) com kernel `rbf`.
@@ -22,7 +32,7 @@ O objetivo principal deste notebook não é apenas criar um modelo de classifica
 O notebook segue um pipeline estruturado em 5 fases:
 
 1.  **Carga e Configuração:** Carregamento do dataset e tratamento inicial de valores nulos (zeros).
-2.  **Análise Exploratória (EDA):** Investigação da distribuição dos dados (não detalhada no output, mas presente no fluxo).
+2.  **Análise Exploratória (EDA):** Investigação da distribuição dos dados.
 3.  **Pré-processamento:**
     * Tratamento de outliers com base no método IQR.
     * Padronização dos dados com `StandardScaler`.
@@ -33,7 +43,7 @@ O notebook segue um pipeline estruturado em 5 fases:
     * Execução do `K-Fold` (10 splits).
     * Execução do `Repeated Stratified K-Fold` (10 splits, 3 repetições).
 
-## 📊 Resultados e Conclusão
+## 📊 Resultados e Conclusão (Deste Notebook)
 
 * **Desempenho do Modelo:** O modelo SVM otimizado alcançou uma acurácia de **81.17%** nos dados de teste.
 * **Estabilidade da Validação:** A análise de validação cruzada demonstrou que o `Repeated Stratified K-Fold` é uma métrica mais estável:
