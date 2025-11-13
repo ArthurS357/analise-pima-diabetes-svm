@@ -1,14 +1,18 @@
+---
+
 # Análise de Classificação e Estabilidade de Modelo com Dataset Pima Diabetes
 
 Este repositório contém uma análise aprofundada do dataset "Pima Indians Diabetes". O notebook foca não apenas na classificação, mas na investigação da **estabilidade e confiabilidade** das métricas de avaliação do modelo.
 
-Esta é uma versão de estudo mais detalhada de um projeto de pesquisa apresentado no congresso **UMC Summit**.
+Esta é a **nova versão**, mais detalhada, de um projeto de pesquisa apresentado no congresso **UMC Summit**.
 
-## 🏅 Versão do Congresso (UMC Summit)
+## 🏅 Versão do Congresso (Versão Antiga)
 
-A versão original deste projeto, que foi formatada e apresentada no congresso (e está vinculada ao QR code da apresentação), está disponível em seu próprio repositório.
+A versão original deste projeto, que foi formatada e apresentada no congresso (e está vinculada ao QR code da apresentação), está disponível no link abaixo.
 
-➡️ **Repositório do Congresso: [https://github.com/ArthurS357/Collab](https://github.com/ArthurS357/Collab)**
+➡️ **Repositório do Congresso (Versão Antiga): [https://github.com/ArthurS357/Collab](https://github.com/ArthurS357/Collab)**
+
+O notebook *deste* repositório (`Pima_Indians_Diabetes.ipynb`) é a **versão nova e atualizada**, contendo uma análise mais aprofundada.
 
 ---
 
