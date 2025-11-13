@@ -1,5 +1,3 @@
----
-
 # Análise de Classificação e Estabilidade de Modelo com Dataset Pima Diabetes
 
 Este repositório contém uma análise aprofundada do dataset "Pima Indians Diabetes". O notebook foca não apenas na classificação, mas na investigação da **estabilidade e confiabilidade** das métricas de avaliação do modelo.
